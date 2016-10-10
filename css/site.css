@@ -1,0 +1,33 @@
+﻿.glyphicon
+{
+    margin-right:4px !important; /*override*/
+}
+
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#555;
+}
+
+.panel ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.news-item
+{
+    padding:5px 4px;
+    margin:0px;
+    border-bottom:1px dotted #555;
+	font-size:13px;
+    color: #000;
+}
+.demo2{width: 90%;}
+.pnl-box a{text-decoration: none; color:#d12463; outline: none;}
+.pnl-box a:hover{color:#d6473c; outline: none;}
