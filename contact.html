@@ -10,158 +10,165 @@
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
 <link rel="stylesheet" type="text/css" href="css/site.css">
 <link rel="stylesheet" type="text/css" href="css/client-slider.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.min.css">
 </head>
 <body>
 <!-- start navbar section-->
 <div class="container-fluid">
     <div class="col-md-12 col-sm-12 col-xs-12 img-mrgn">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container md-container">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav-header">
+            <div class="container md-container sm-container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a href="index.html"><img src="img/logo.png" class="img-responsive logo" 
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img src="img/logo.png" class="img-responsive logo" 
                     alt="Responsive image"></a>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav nav-change">
-                        <li><a href="index.html" class="myscroll">Home</a></li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">About Us<i class="fa fa-chevron-down 
-                            dwn-icon"></i></a>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a tabindex="0" href="" data-toggle="dropdown" data-submenu>
+                            About Us<i class="fa fa-chevron-down dwn-icon"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="at-a-glance.html" class="myscroll">
+                                <li><a tabindex="0" href="at-a-glance.html" class="myscroll">
                                 At a Glance</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="projects.html" class="myscroll">
+                                <li><a tabindex="0" href="projects.html" class="myscroll">
                                 Projects</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Expertise 
+                                    <a tabindex="0" href="#">Expertise 
                                     <i class="fa fa-chevron-right right-icon"></i></a>
                                     <ul class="dropdown-menu">
+                                        <li><a tabindex="0" href="alternate-energy-systems.html" 
+                                        class="myscroll">Alternate Energy Systems</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="alternate-energy-systems.html" class="myscroll">Alternate Energy Systems</a></li>
+                                        <li><a tabindex="0" href="power-distribution-control.html" class="myscroll">Power Distribution Control</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="power-distribution-control.html" class="myscroll">Power Distribution Control</a></li>
+                                        <li><a tabindex="0" href="electrical-design.html" class="myscroll">Electrical Design</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="electrical-design.html" class="myscroll">Electrical Design</a></li>
+                                        <li><a tabindex="0" href="electrical-equipment.html" class="myscroll">Electrical Equipment Manufacturing</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="electrical-equipment.html" class="myscroll">Electrical Equipment Manufacturing</a></li>
+                                        <li><a tabindex="0" href="documentation.html" class="myscroll">Documentation</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="documentation.html" class="myscroll">Documentation</a></li>
-                                        <li class="divider"></li>
-                                        <li><a tabindex="-1" href="technical-field-service.html" class="myscroll">Technical Field Service</a></li>
+                                        <li><a tabindex="0" href="technical-field-service.html" class="myscroll">Technical Field Service</a></li>
                                     </ul>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Corporate Social Responsibility</a>   
-                                </li>
+                                <li><a tabindex="0" href="corporate-social.html" class="myscroll">Corporate Social Responsibility</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Brochures and Publications</a></li>
+                                <li><a tabindex="0" href="brochures-and-publications.html" 
+                                class="myscroll">Brochures and Publications</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Products<i class="fa fa-chevron-down 
-                            dwn-icon"></i></a>
+                        <li class="dropdown">
+                            <a tabindex="0" href="" data-toggle="dropdown" data-submenu>Products 
+                            <i class="fa fa-chevron-down dwn-icon"></i></a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Markets<i class="fa fa-chevron-right right-icon"></i></a>
+                                    <a tabindex="0" href="#">Markets<i class="fa fa-chevron-right right-icon"></i></a>
                                     <ul class="dropdown-menu">
+                                        <li><a tabindex="0" href="oil-gas.html" 
+                                        class="myscroll">Oil and Gas</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="oil-gas.html" class="myscroll">Oil and Gas</a></li>
-                                        <li class="divider"></li>
-                                        <li><a tabindex="-1" href="green-energy.html" 
+                                        <li><a tabindex="0" href="green-energy.html" 
                                         class="myscroll">Green Energy</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="marine-power.html" 
+                                        <li><a tabindex="0" href="marine-power.html" 
                                         class="myscroll">Marine Power</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="industrial.html" 
+                                        <li><a tabindex="0" href="industrial.html" 
                                         class="myscroll">Industrial</a></li>
                                     </ul>
                                 </li>
                                 <li class="divider"></li>
                                 <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="high-reliability-power-plant.html">
-                                    High Reliability Power Plant 
-                                    <i class="fa fa-chevron-right right-icon"></i></a>
+                                    <a tabindex="0" href="high-reliability-power-plant.html">
+                                    High Reliability Power Plant <i class="fa fa-chevron-right 
+                                    right-icon"></i></a>
                                     <ul class="dropdown-menu">
+                                        <li><a tabindex="0" href="generator-control.html" 
+                                        class="myscroll">Generator Control and Protection</a>
+                                        </li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="generator-control.html" class="myscroll">Generator Control and Protection</a></li>
+                                        <li><a tabindex="0" href="power-distribution-panels.html" class="myscroll">Power Distribution Panels</a></li>
                                         <li class="divider"></li>
-                                        <li><a tabindex="-1" href="power-distribution-panels.html" class="myscroll">Power Distribution Panels</a></li>
-                                        <li class="divider"></li>
-                                        <li><a tabindex="-1" href="auxiliary-control.html" class="myscroll">Auxiliary Control and Protection</a></li>
-                                        <li class="divider"></li>
+                                        <li><a tabindex="0" href="auxiliary-control.html" 
+                                        class="myscroll">Auxiliary Control and Protection
+                                        </a></li>
                                     </ul>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="uninterruptable-power-supply.html" class="myscroll">Uninterruptible Power Supply (UPS)</a></li>
+                                <li><a tabindex="0" href="uninterruptable-power-supply.html" 
+                                class="myscroll">Uninterruptible Power Supply (UPS)</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Pre-magnetization System</a></li>
+                                <li><a tabindex="0" href="pre-magnetization.html" class="myscroll">
+                                Pre-magnetization System</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Hybrid Drill Floor </a></li>
+                                <li><a tabindex="0" href="hybrid-drill-floor.html" 
+                                class="myscroll">Hybrid Drill Floor</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Solid State Generator</a></li>
+                                <li><a tabindex="0" href="solid-state-generator.html" 
+                                class="myscroll">Solid State Generator </a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Smart Microgrid</a></li>
+                                <li><a tabindex="0" href="smart-microgrid.html" class="myscroll">Smart Microgrid
+                                </a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">E-House</a></li>
+                                <li><a tabindex="0" href="e-house.html" class="myscroll">E-House
+                                </a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">XeroPoint Hybrid Marine Propulsion</a></li>
+                                <li><a tabindex="0" href="xeropoint-hybrid.html" class="myscroll">XeroPoint Hybrid Marine Propulsion</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">DeviceTRAK</a></li>
+                                <li><a tabindex="0" href="deviceTRAK.html" class="myscroll">DeviceTRAK</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Documentation</a>
-                                </li> 
+                                <li><a tabindex="0" href="documentation-product.html" 
+                                class="myscroll">Documentation</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">Services<i class="fa fa-chevron-down 
-                            dwn-icon"></i></a>
+                        <li class="dropdown">
+                            <a tabindex="0" href="" data-toggle="dropdown" data-submenu>Services 
+                            <i class="fa fa-chevron-down dwn-icon"></i></a>
                             <ul class="dropdown-menu">
+                                <li><a tabindex="0" href="automation.html" class="myscroll">
+                                Automation</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="automation.html" class="myscroll">Automation
-                                </a></li>
+                                <li><a tabindex="0" href="haer-surveys.html" class="myscroll">
+                                Hear Surveys</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="haer-surveys.html" class="myscroll">Hear Surveys</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a tabindex="-1" href="system-integration.html" 
+                                <li><a tabindex="0" href="system-integration.html" 
                                 class="myscroll">System Integration</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="custom-engineering.html" 
+                                <li><a tabindex="0" href="custom-engineering.html" 
                                 class="myscroll">Custom Engineering</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Technical Field Service</a></li>
+                                <li><a tabindex="0" href="technical-field.html" class="myscroll">Technical Field Service</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Life Cycle Support
-                                </a></li>
+                                <li><a tabindex="0" href="life-cycle-support.html" 
+                                class="myscroll">Life Cycle Support</a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Technical Writing 
-                                </a></li>
+                                <li><a tabindex="0" href="technical-writing.html" class="myscroll">Technical Writing </a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Customized Training 
-                                </a></li>
+                                <li><a tabindex="0" href="customized-training.html" 
+                                class="myscroll">Customized Training </a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">Manufacturing 
-                                </a></li>
+                                <li><a tabindex="0" href="manufacturing.html" class="myscroll">Manufacturing </a></li>
                                 <li class="divider"></li>
-                                <li><a tabindex="-1" href="#" class="myscroll">R&D and Prototyping</a></li>
+                                <li><a tabindex="0" href="r&dand-prototyping.html" 
+                                class="myscroll">R&D and Prototyping </a></li>
                             </ul>
                         </li>
                         <li><a href="our-people.html" class="myscroll">Our People</a></li>
-                        <li><a href="#" class="myscroll">Carrers</a></li>
+                        <li><a href="carrers.html" class="myscroll">Carrers</a></li>
                         <li><a href="contact.html" class="myscroll">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> 
     </div>
 
     <div class="col-md-12 col-sm-12 col-xs-12 img-mrgn">
@@ -387,6 +394,7 @@
 <script type="text/javascript" src="js/jquery.bootstrap.newsbox.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexisel.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-submenu.js"></script>
 <script type="text/javascript">
     $(function () {
         $(".demo2").bootstrapNews({
