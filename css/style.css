@@ -346,6 +346,10 @@ color: #fff; text-decoration: none !important; font-family: 'Roboto-Light'; font
 letter-spacing: 1px; outline: none;}
 .button-new:hover,.button-new:focus{ color: #fff; background: #d12463; outline: none;}
 
+.button-sbmt{background: #7262a0; float: left; padding: 8px 20px;border:none; 
+color: #fff; text-decoration: none !important; font-family: 'Roboto-Light'; font-size: 14px;
+letter-spacing: 1px; outline: none; margin-top: 30px; margin-bottom: 50px;}
+.button-sbmt:hover,.button-sbmt:focus{ color: #fff; background: #d12463; outline: none;}
 
 .content-project{padding-bottom: 50px;}
 .content-project p{font-size: 16px;}
